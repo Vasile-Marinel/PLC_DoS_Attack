@@ -1,6 +1,3 @@
-#Rulare: py -3 run_experiment.py baseline
-
-
 # Demonstrarea unui atac DoS asupra unui server PLC simulat
 
 Un atac DoS (Denial of Service) la nivel de aplicație asupra unui server
