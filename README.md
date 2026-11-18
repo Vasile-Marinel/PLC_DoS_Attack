@@ -5,15 +5,15 @@ care imită un PLC, apoi implementează și testează contramăsuri.
 
 ## Structura proiectului
 
-| Fișier | Cerință | Rol |
-|---|---|---|
-| `common.py` | — | protocolul text simplu (READ/WRITE) folosit de toate componentele |
-| `plc_server.py` | **1** | server PLC simulat, **vulnerabil** (single-threaded, fără protecții) |
-| `legit_client.py` | **2** | client legitim — 1 cerere/secundă, măsoară latența |
-| `attacker.py` | **3** | atacator — inundă serverul cu conexiuni, pe multe fire de execuție |
-| `plc_server_protected.py` | **5** | aceeași logică de PLC + rate limiting per-IP + coadă de procesare mărginită |
-| `run_experiment.py` | **4, 6** | orchestrează server + client legitim + atacator într-un singur experiment |
-| `compare_results.py` | **6** | citește rezultatele ambelor experimente, scoate raport text + grafic |
+| Fișier | Rol |
+|---|---|
+| `common.py` | protocolul text simplu (READ/WRITE) folosit de toate componentele |
+| `plc_server.py` | server PLC simulat, **vulnerabil** (single-threaded, fără protecții) |
+| `legit_client.py` | client legitim — 1 cerere/secundă, măsoară latența |
+| `attacker.py` | atacator — inundă serverul cu conexiuni, pe multe fire de execuție |
+| `plc_server_protected.py` | aceeași logică de PLC + rate limiting per-IP + coadă de procesare mărginită |
+| `run_experiment.py` | orchestrează server + client legitim + atacator într-un singur experiment |
+| `compare_results.py` | citește rezultatele ambelor experimente, scoate raport text + grafic |
 
 ## Cum funcționează "PLC-ul" simulat
 
