@@ -1,0 +1,11 @@
+RAPORT COMPARATIV - Atac DoS asupra server-ului PLC simulat
+============================================================
+--- Server VULNERABIL (fara protectii) ---
+Inainte de atac  (0-15s): 15 cereri | succes=100.0% | latenta medie=20.0ms | p95=33.3ms | max=54.7ms
+In timpul atacului (15-45s): 15 cereri | succes=73.3% | latenta medie=1903.3ms | p95=2727.5ms | max=2962.6ms
+Dupa atac (45-60s): 30 cereri | succes=100.0% | latenta medie=86.3ms | p95=27.0ms | max=1888.6ms
+
+--- Server PROTEJAT (rate limiting + coada marginita) ---
+Inainte de atac  (0-15s): 15 cereri | succes=100.0% | latenta medie=18.0ms | p95=16.6ms | max=42.9ms
+In timpul atacului (15-45s): 30 cereri | succes=100.0% | latenta medie=37.0ms | p95=40.7ms | max=76.9ms
+Dupa atac (45-60s): 15 cereri | succes=100.0% | latenta medie=18.4ms | p95=16.8ms | max=46.2ms

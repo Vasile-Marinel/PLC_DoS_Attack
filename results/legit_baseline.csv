@@ -1,0 +1,61 @@
+t_sec,connected,ok,latency_ms,status
+0.00,True,True,54.7,OK 0 0
+1.00,True,True,16.5,OK 12 0
+2.00,True,True,16.5,OK 15 0
+3.00,True,True,16.2,OK 1 0
+4.00,True,True,16.4,OK 9 0
+5.00,True,True,16.2,OK 10 0
+6.00,True,True,16.6,OK 6 0
+7.00,True,True,16.1,OK 18 0
+8.00,True,True,16.3,OK 15 0
+9.00,True,True,16.3,OK 12 0
+10.00,True,True,16.3,OK 18 0
+11.00,True,True,16.1,OK 5 0
+12.00,True,True,33.3,OK 6 0
+13.00,True,True,16.4,OK 8 0
+14.00,True,True,16.1,OK 17 0
+15.00,True,True,16.1,OK 16 0
+16.00,True,True,2006.1,OK 2 0
+18.01,False,False,2033.0,EXC:ConnectionRefusedError
+20.04,True,True,2204.4,OK 8 0
+22.24,True,True,1783.6,OK 13 0
+24.03,False,False,2029.9,EXC:ConnectionRefusedError
+26.06,True,True,2962.6,OK 10 0
+29.02,True,True,1349.1,OK 9 0
+30.37,True,True,2727.5,OK 17 0
+33.10,True,True,2587.2,OK 4 0
+35.69,True,True,1491.5,OK 9 0
+37.18,False,False,2031.2,EXC:ConnectionRefusedError
+39.21,False,False,2033.0,EXC:ConnectionRefusedError
+41.24,True,True,2384.7,OK 13 0
+43.63,True,True,1423.9,OK 7 0
+45.05,True,True,1888.6,OK 6 0
+46.94,True,True,239.5,OK 2 0
+47.18,True,True,16.4,OK 1 0
+47.20,True,True,16.2,OK 11 0
+47.21,True,True,15.9,OK 19 0
+47.23,True,True,15.7,OK 9 0
+47.24,True,True,16.1,OK 18 0
+47.26,True,True,15.8,OK 11 0
+47.28,True,True,16.1,OK 19 0
+47.29,True,True,27.0,OK 1 0
+47.32,True,True,15.9,OK 7 0
+47.34,True,True,16.1,OK 0 0
+47.35,True,True,15.9,OK 11 0
+47.37,True,True,16.0,OK 1 0
+47.38,True,True,15.9,OK 16 0
+47.40,True,True,16.2,OK 0 0
+47.42,True,True,15.6,OK 8 0
+47.43,True,True,15.8,OK 17 0
+48.00,True,True,16.8,OK 5 0
+49.00,True,True,16.3,OK 9 0
+50.00,True,True,16.1,OK 1 0
+51.00,True,True,16.4,OK 6 0
+52.00,True,True,16.3,OK 15 0
+53.00,True,True,16.1,OK 8 0
+54.00,True,True,16.5,OK 3 0
+55.00,True,True,16.0,OK 0 0
+56.00,True,True,16.2,OK 5 0
+57.00,True,True,16.3,OK 14 0
+58.00,True,True,16.3,OK 2 0
+59.00,True,True,16.5,OK 18 0
