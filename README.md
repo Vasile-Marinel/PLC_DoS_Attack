@@ -127,7 +127,7 @@ acel IP.
   consume resursele serverului, în timp ce cele ale clientului legitim
   (altă adresă sursă) trec normal.
 
-##Comparație latență
+## Comparație latență
 
 ![Comparație latență](results/comparatie_latenta.png)
 
